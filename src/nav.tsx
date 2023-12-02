@@ -28,7 +28,8 @@ export const Nav = () => {
             {!currentUser && (
               <button onClick={() => identity.login()}>Login</button>
             )}
-
+            {console.log(currentUser)}
+            
             {!!currentUser && (
               <button onClick={() => identity.logout()}>Logout</button>
             )}
