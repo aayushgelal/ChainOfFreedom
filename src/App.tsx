@@ -1,8 +1,8 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom";
-import View_Post from "./components/View_Post";
+import View_Post from "./components/PostScreen/View_Post";
 import RootLayout from "./_root/pages/RootLayout";
 import posts from "./posts";
-import PostScreen from "./components/PostScreen";
+import PostScreen from "./components/PostScreen/PostScreen";
 
 function App() {
   return (

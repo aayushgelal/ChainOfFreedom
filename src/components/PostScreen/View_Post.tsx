@@ -1,5 +1,5 @@
 import React,{useState} from 'react'
-import { Button } from './ui/button'
+import { Button } from '../ui/button'
 import {
     Card,
     CardContent,
@@ -28,7 +28,7 @@ export default function View_Post({post} :{post:Post}) {
       setShowComments(!showComments);
     };
   return (
-    <Card className="lg:max-w-md w-full rounded-3xl shadow-lg">
+    <Card className="mb-10 transition-transform  duration-300 ease-in-out lg:max-w-md  rounded-3xl shadow-lg ">
 
           <CardHeader className='flex flex-row items-center space-x-3'>
           <div className='overflow-hidden rounded-full bg-red-50 w-10 h-10' >
